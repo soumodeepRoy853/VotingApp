@@ -1,0 +1,24 @@
+**Creating a Voting app using NodeJs**
+
+*Planning*:
+
+1.What is voting app?
+=> A functionality where user can give vote to the given set of Candidates.
+
+2.Functionality:
+=> 2.1) User Sign up/Sign in.
+   2.2) See the list of Candidates.
+   2.3) Vote one of the candidate.
+   2.4) After voting, user can't vote again.
+   2.5) There is a route which shows the list of candidates and their live vote counts sorted by their vote count.
+   2.6) User data must contain their one unique id(AadharCardNumber) proof.
+   2.7) There should be one admin who can only maintain the table of candidates and he can't be able to vote at all.
+   2.8) User can change their password.
+   2.9) User can login only with AadharCardNumber and password.
+
+3.Routes:
+=> 3.1) User Authentication.
+   3.2) Voting.
+   3.3) Vote Counts.
+   3.4) User Profile.
+   3.5) Admin,Candidate management
